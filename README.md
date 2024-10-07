@@ -2,14 +2,14 @@
 PostgreSQL database verifier.
 
 The script to check the database structure for errors or non-recommended practices.
-
+# db_verifier2
 The script consists of a set of checks that access the system catalog tables and do not require access to data in
 user tables.
 
+[[wiki link]]
+
 The current version is applicable to PostgreSQL 12 and later. Tested in versions PostgreSQL 15.8.
-
 ## Project structure
-
 * [`db_verifier.sql`](db_verifier.sql) - script, checks and displays a list of errors/warnings/recommendations with comments
 * `tests` - directory with DDL/DML scripts that are used to debug [`db_verifier.sql`](db_verifier.sql) and demonstrate errors
 
